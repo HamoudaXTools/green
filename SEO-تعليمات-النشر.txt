@@ -1,0 +1,28 @@
+ملفات تحسين ظهور مؤسسة بصمتك خضراء في Google
+================================================
+
+تم تحديث index.html بإضافة:
+- عنوان ووصف عربيين يوضحان اسم المؤسسة.
+- Canonical URL للرابط الرسمي.
+- بيانات Open Graph وTwitter.
+- بيانات منظمة Organization بصيغة JSON-LD.
+- تعليمات السماح بالفهرسة.
+
+وتم إنشاء:
+- robots.txt
+- sitemap.xml
+
+طريقة الرفع:
+1) افتح مستودع GitHub الذي ينشر الموقع على:
+   https://hamoudaxtools.github.io/green/
+2) ارفع محتويات مجلد green-main إلى مجلد green في الفرع/المسار الذي ينشر GitHub Pages.
+3) حافظ على مجلد assets كما هو، ولا ترفع مجلد green-main نفسه داخل green؛ ارفع محتوياته مباشرة.
+4) بعد اكتمال النشر افتح:
+   https://hamoudaxtools.github.io/green/robots.txt
+   https://hamoudaxtools.github.io/green/sitemap.xml
+5) في Google Search Console اختر ملفات خرائط الموقع وأرسل:
+   sitemap.xml
+6) افحص الصفحة الرئيسية واطلب الفهرسة.
+
+ملاحظة:
+هذه التعديلات تساعد Google على فهم الموقع لكنها لا تضمن ترتيبًا معينًا أو ظهورًا فوريًا.

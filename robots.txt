@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hamoudaxtools.github.io/green/sitemap.xml
